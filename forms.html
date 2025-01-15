@@ -55,24 +55,55 @@
     <form action="Request Masjid Services">
         <p>
             <label for="OrgName">Organization Name:</label>
-            <input type="text" placeholder="Organization Name" id="OrgName">
+            <input type="text" placeholder="Organization Name" id="OrgName" name="organization">
         </p>
 
         <p>
             <label for="First_Name">First Name:</label>
-            <input type="text" placeholder="First Name" id="First_Name">
+            <input type="text" placeholder="First Name" id="First_Name" name="Fname">
         </p>
 
         <p>
             <label for="Last_Name">Last Name:</label>
-            <input type="text" placeholder="Last Name" id="Last_Name">
+            <input type="text" placeholder="Last Name" id="Last_Name" name="Lname">
         </p>
 
         <p>
             <label for="Email_Address">Email Address:</label>
-            <input type="email" placeholder="Email Address" id="Email_Address">
+            <input type="email" placeholder="Email Address" id="Email_Address" name="Email" required>
         </p>
+        <button>Submit</button>
     </form>
+    <h2>More Inputs</h2>
+    <form action="/test">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">MLG?! I disagree</label>
+        <button>Submit</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="/test1">
+        <label for="mc">Mastur Ceef</label>
+        <input type="radio" name="arby" id="mc" value="Mastur_ceef">
+        <label for="ar">Arbiter</label>
+        <input type="radio" name="arby" id="ar" value="arbiter">
+        <label for="ms">Microsoft Sam</label>
+        <input type="radio" name="arby" id="ms" value="micsam">
+        <label for="agree">MLG?! I Agree</label>
+        <button>Submit</button>
+    </form>
+    <p>
+        <label for="serv_type">Please select masjid service type:</label>
+        <select name="service" id="serv_type">
+            <option value="Nikkah">Nikkah / نكاح</option>
+            <option value="Lecture">Lecture / محاضرة </option>
+            <option value="Janazah">Janazah / جنازة </option>
+            <option value="Bayan">Bayan / بَيَان </option>
+        </select>
+        <button>Submit</button>
+
+    </p>
+
 
     <footer><a href="masjid.html">Home</a></footer>
 
