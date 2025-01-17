@@ -38,3 +38,7 @@ h1 {
 .infoform {
     align-items: center;
 }
+
+.mas_links a {
+    color: #457b9d;
+}
