@@ -22,3 +22,19 @@ h1 {
     text-decoration: black;
     background-color: salmon;
 }
+
+.tag {
+    color: green;
+}
+
+.newsletter {
+    background-color: grey;
+}
+
+.mail {
+    text-align: center;
+}
+
+.infoform {
+    align-items: center;
+}
