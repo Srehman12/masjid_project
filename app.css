@@ -42,3 +42,11 @@ h1 {
 .mas_links a {
     color: #457b9d;
 }
+
+section li {
+    color: salmon;
+}
+
+input[type="email"] {
+    color: crimson;
+}
