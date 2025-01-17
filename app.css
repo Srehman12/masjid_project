@@ -5,3 +5,20 @@ p {
 td {
     color: darkgray;
 }
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: #0f5679;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: white wavy underline;
+    line-height: 2.5;
+    letter-spacing: 1.5px;
+    font-size: 70px;
+    font-family: Helvetica, sans-serif;
+}
+
+#signup {
+    text-decoration: black;
+    background-color: salmon;
+}
