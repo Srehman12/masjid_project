@@ -1,5 +1,5 @@
 p {
-    color: grey;
+    color: black;
 }
 
 td {
@@ -18,10 +18,7 @@ h1 {
     font-family: Helvetica, sans-serif;
 }
 
-#signup {
-    text-decoration: black;
-    background-color: salmon;
-}
+
 
 .tag {
     color: green;
@@ -43,10 +40,29 @@ h1 {
     color: #457b9d;
 }
 
+.mas_links a:active {
+    background-color: #02c39a;
+    color: red;
+}
+
 section li {
     color: salmon;
 }
 
 input[type="email"] {
     color: crimson;
+}
+
+h2[class="tag"] {
+    color: white;
+    background-color: green;
+}
+
+.signup button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.mas_links:nth-of-type(2n) {
+    background-color: wheat;
 }
