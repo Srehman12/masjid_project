@@ -66,3 +66,8 @@ h2[class="tag"] {
 .mas_links:nth-of-type(2n) {
     background-color: wheat;
 }
+
+p::selection {
+    background-color: turquoise;
+    color: white;
+}
