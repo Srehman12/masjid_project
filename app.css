@@ -76,16 +76,23 @@ section {
     width: 1000px;
 }
 
-#onep {
+/* #onep {
     background-color: #e5989b;
     border-width: 5px;
     border-color: black;
     border-style: solid;
+} */
+
+
+
+.newsletter {
+    background-color: aquamarine;
+    border: 3.5px solid rgb(243, 197, 192);
+    border-radius: 10% / 50%;
+    text-align: center;
 }
 
-#one {
-    background-color: #e5989b;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
+.one {
+    font-weight: 400;
+    font-size: 50px;
 }
