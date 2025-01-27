@@ -3,7 +3,7 @@ p {
 }
 
 td {
-    color: darkgray;
+    color: black;
 }
 
 h1 {
@@ -22,10 +22,6 @@ h1 {
 
 .tag {
     color: green;
-}
-
-.newsletter {
-    background-color: grey;
 }
 
 .mail {
@@ -78,4 +74,18 @@ h2::first-letter {
 
 section {
     width: 1000px;
+}
+
+#onep {
+    background-color: #e5989b;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#one {
+    background-color: #e5989b;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
