@@ -1,5 +1,6 @@
 p {
     color: black;
+    font-size: 1em;
 }
 
 td {
@@ -32,8 +33,16 @@ h1 {
     align-items: center;
 }
 
+h2:nth-of-type(2n) {
+    text-align: center;
+}
+
 .mas_links a {
     color: #457b9d;
+}
+
+.mas_links {
+    width: 1000px;
 }
 
 .mas_links a:active {
@@ -60,17 +69,17 @@ h2[class="tag"] {
 }
 
 .mas_links:nth-of-type(2n) {
-    background-color: wheat;
+    background-color: black;
+    color: salmon;
 }
+
 
 p::selection {
     background-color: turquoise;
     color: white;
 }
 
-h2::first-letter {
-    font-size: 50px;
-}
+
 
 section {
     width: 1000px;
@@ -92,11 +101,18 @@ section {
     text-align: center;
 }
 
-.one {
-    font-weight: 400;
-    font-size: 50px;
-}
-
 h2 {
     padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 7px 7px;
+}
+
+.para {
+    padding-bottom: 35px;
+    padding-top: 17px;
 }
