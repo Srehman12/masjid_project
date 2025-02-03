@@ -15,8 +15,8 @@ h1 {
     text-decoration: white wavy underline;
     line-height: 2.5;
     letter-spacing: 1.5px;
-    font-size: 70px;
-    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -66,6 +66,9 @@ h2[class="tag"] {
 .signup button:hover {
     background-color: #e63946;
     color: #f1faee;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 .mas_links:nth-of-type(2n) {
@@ -83,6 +86,8 @@ p::selection {
 
 section {
     width: 1000px;
+    background-image: url(madina.jpg);
+    background-size: cover;
 }
 
 /* #onep {
@@ -109,9 +114,13 @@ h2 {
 }
 
 button {
-    padding: 0 1em;
+    background: none;
+    background-color: #151b29;
+    color: #ffa260;
+    border: 2px solid;
+    padding: .95em 1.25em;
     font-size: 1em;
-    border-radius: 0.5em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 .para {
@@ -139,4 +148,29 @@ li {
 
 td {
     font-size: .75em;
+}
+
+#masjid_header {
+    position: sticky;
+    top: 0;
+}
+
+#masjid_header h1 {
+    width: 400px;
+}
+
+
+
+.haram {
+    border-radius: 95%;
+    transition: 1s;
+}
+
+.haram:hover .haram1 {
+    border-radius: 95%;
+    transition: 1s;
+}
+
+section:first-of-type h2:nth-of-type(2) {
+    transform: rotate(45deg);
 }
