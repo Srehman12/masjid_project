@@ -174,3 +174,17 @@ td {
 section:first-of-type h2:nth-of-type(2) {
     transform: rotate(45deg);
 }
+
+body {
+    font-family: montserrat, sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+}
