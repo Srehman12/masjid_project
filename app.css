@@ -1,4 +1,4 @@
-p {
+/* p {
     color: black;
     font-size: 1em;
 }
@@ -8,15 +8,15 @@ td {
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: #0f5679;
     text-align: center;
     font-weight: 400;
-    text-decoration: white wavy underline;
     line-height: 2.5;
     letter-spacing: 1.5px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: raleway;
+    background: none;
 }
 
 
@@ -96,7 +96,7 @@ section {
     border-color: black;
     border-style: solid;
 } */
-
+/* 
 
 
 .newsletter {
@@ -153,10 +153,12 @@ td {
 #masjid_header {
     position: sticky;
     top: 0;
+    display: inline-block;
+    text-align: left;
 }
 
 #masjid_header h1 {
-    width: 400px;
+    width: 500px;
 }
 
 
@@ -166,17 +168,18 @@ td {
     transition: 1s;
 }
 
-.haram:hover .haram1 {
+/* .haram:hover .haram1 {
     border-radius: 95%;
     transition: 1s;
-}
+} */
 
-section:first-of-type h2:nth-of-type(2) {
+/* section:first-of-type h2:nth-of-type(2) {
     transform: rotate(45deg);
 }
 
 body {
     font-family: montserrat, sans-serif;
+    background-color: rgb(244, 244, 244);
 }
 
 main {
@@ -187,4 +190,58 @@ main {
 h2 {
     font-family: roboto, sans-serif;
     font-weight: 100;
+}
+
+header {
+    background-color: lightblue;
+    text-decoration: black;
+    height: 150px;
+
+}
+
+#mosque_nav_container {
+    background-color: aquamarine;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex end;
+}
+
+*/
+
+.header {
+    background-color: hsl(0, 0%, 96%);
+    padding: 0 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header h1 {
+    color: #000;
+    font-size: 25px;
+    font-family: raleway, sans-serif;
+
+}
+
+.nav li {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    padding: .335em;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
 }
