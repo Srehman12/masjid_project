@@ -227,7 +227,6 @@ ul {
 }
 
 .header h1 {
-    color: #000;
     font-size: 25px;
     font-family: raleway, sans-serif;
 
@@ -237,11 +236,41 @@ ul {
     color: #ffffff;
     display: inline-block;
     font-size: 18px;
-    padding: .335em;
+    padding: .395em;
+
 }
 
 .nav a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
+}
+
+.haram img {
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+@media (min-width: 400px) {
+    .header {
+        color: salmon;
+    }
+
+    .nav ul,
+    li {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    .header {
+        color: green;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        color: black;
+    }
 }
