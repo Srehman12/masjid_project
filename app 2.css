@@ -1,9 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+http: //meyerweb.com/eric/tools/css/reset/ 
 
-/* html,
+v2.0 | 20110126 License: none (public domain) */ html,
 body,
 div,
 span,
@@ -92,8 +89,7 @@ video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-/* article,
+HTML5 display-role reset for older browsers article,
 aside,
 details,
 figcaption,
@@ -132,8 +128,11 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-} */
-*/ html {
+}
+
+
+
+html {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -178,13 +177,11 @@ body {
     letter-spacing: 1px;
 }
 
-ul {
-    list-style-type: none;
-}
 
 .pricing-features {
     margin: 50px 0 25px;
     color: #016ff9;
+    min-height: 150px;
 }
 
 .pricing-features-item {
@@ -192,8 +189,10 @@ ul {
     letter-spacing: 1px;
     font-size: 12px;
     line-height: 1.5;
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-right: 9px;
     border-top: 1px solid #e1f1ff;
+    text-align: center;
 }
 
 .pricing-features-item:last-child {
@@ -247,5 +246,14 @@ ul {
 
     .pricing-plan:last-child {
         border-right: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .pricing-img {
+        width: 220px;
+        height: 140px;
+        object-fit: cover;
+        margin-bottom: 25px;
     }
 }
